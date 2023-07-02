@@ -1,0 +1,109 @@
+:root {
+  --bs-color-1: #4143e5;
+  --bs-color-2: #fa7568;
+  --bs-color-3: #d1fabc;
+}
+
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+/* h1 {
+  background: -webkit-linear-gradient(110.9deg, rgb(159, 131, 216) 2.6%, rgb(86, 224, 201) 100.2%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+/* .bg-gradient-1, button {
+  color: black;
+  background: linear-gradient(110.9deg, rgb(159, 131, 216) 2.6%, rgb(86, 224, 201) 100.2%);
+} */
+
+.img-logos {
+  max-height: 5em;
+}
+
+.founder-img {
+  max-height: 5em;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+
+
+/* COLORS */
+.clr-primary {
+  color: var(--bs-color-2);
+}
+
+.btn {
+  border: none;
+  border-radius: 2px;
+}
+
+.btn-primary {
+  background-color: var(--bs-color-1);
+}
+
+.btn-primary:hover {
+  background-color: var(--bs-color-2);
+}
+
+.btn-primary:active {
+  background-color: black;
+}
+
+
+
+nav .nav-item a {
+  color: black;
+}
+
+nav .nav-item a:hover {
+  color: var(--bs-color-1);
+}
+
+nav .dropdown .btn{
+  color: black;
+}
+
+nav .dropdown-toggle, .dropdown-toggle:focus {
+  background: transparent;
+}
+
+nav .btn-check:checked+.btn,nav .btn.active,nav .btn.show,nav .btn:first-child:active, :not(.btn-check)+.btn:active {
+  color: var(--bs-color-2);
+  background-color: transparent;
+}
+
+nav .dropdown-toggle:hover {
+  color: var(--bs-color-2);
+  background: transparent;
+}
+
+
+
+/* links */
+
+.container a.btn-outline-primary {
+  color: var(--bs-color-2);
+}
+
+.container a.btn-outline-primary:hover {
+  color: var(--bs-color-3);
+  background-color: transparent;
+}
+
+
+section .container ul li {
+  list-style: square;
+}
+
+/* section .container ul li:before {
+  content: '✔';
+} */
