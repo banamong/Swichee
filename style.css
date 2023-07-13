@@ -107,3 +107,7 @@ section .container ul li {
 /* section .container ul li:before {
   content: '✔';
 } */
+
+.brands-logos img {
+  max-height: 6em;
+}
